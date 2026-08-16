@@ -1,0 +1,116 @@
+name: Avtomatik post
+
+on:
+  schedule:
+    # Toshkent vaqti = UTC+5.
+    # Post 30 daqiqa oldin tayyorlanadi va tasdiqqa yuboriladi:
+    #   08:30 Toshkent = 03:30 UTC  -> javob bo'lmasa 09:00 da chiqadi
+    #   18:30 Toshkent = 13:30 UTC  -> javob bo'lmasa 19:00 da chiqadi
+    - cron: "30 3 * * *"
+    - cron: "30 13 * * *"
+
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Rejim"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run        # hech qayerga yubormaydi, natija Artifacts'da
+          - test-to-admin  # faqat sizga yuboradi, tasdiqsiz
+          - approve        # tasdiq so'raydi, keyin kanalga chiqaradi
+          - publish-now    # tasdiqsiz darhol kanalga chiqaradi
+      category:
+        description: "Kategoriya (bo'sh = navbat bo'yicha)"
+        required: false
+        default: ""
+        type: choice
+        options: ["", vocabulary, grammar, exam, method]
+      wait:
+        description: "Tasdiq kutish vaqti (daqiqa)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: multilevel-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # Tasdiq kutish vaqti + generatsiya uchun zaxira
+    timeout-minutes: 50
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Shriftlarni o'rnatish (kartochka uchun)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-liberation fonts-dejavu-core
+
+      - name: Kutubxonalarni o'rnatish
+        run: pip install -r requirements.txt
+
+      - name: Bayroqlarni aniqlash
+        id: flags
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          [ -z "$MODE" ] && MODE="approve"   # cron bo'yicha ishga tushsa — tasdiq so'raydi
+
+          FLAGS=""
+          case "$MODE" in
+            dry-run)       FLAGS="--dry-run" ;;
+            test-to-admin) FLAGS="--to ${{ secrets.ADMIN_CHAT_ID }}" ;;
+            approve)       FLAGS="" ;;
+            publish-now)   FLAGS="--no-approval" ;;
+          esac
+
+          CAT="${{ github.event.inputs.category }}"
+          [ -n "$CAT" ] && FLAGS="$FLAGS --category $CAT"
+
+          W="${{ github.event.inputs.wait }}"
+          [ -n "$W" ] && FLAGS="$FLAGS --wait $W"
+
+          echo "mode=$MODE"   >> "$GITHUB_OUTPUT"
+          echo "flags=$FLAGS" >> "$GITHUB_OUTPUT"
+          echo "Rejim: $MODE | Bayroqlar: $FLAGS"
+
+      - name: Postni yaratish va chiqarish
+        env:
+          GEMINI_API_KEY:      ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          ADMIN_CHAT_ID:       ${{ secrets.ADMIN_CHAT_ID }}
+          PYTHONUNBUFFERED: "1"
+        run: python -m src.main ${{ steps.flags.outputs.flags }}
+
+      - name: Natijani saqlash
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-${{ github.run_number }}
+          path: out/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Tarixni repoga yozish
+        if: steps.flags.outputs.mode == 'approve' || steps.flags.outputs.mode == 'publish-now'
+        run: |
+          if git diff --quiet -- state/history.json; then
+            echo "Tarix o'zgarmadi."
+            exit 0
+          fi
+          git config user.name  "multilevel-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/history.json
+          git commit -m "chore: post tarixi yangilandi [skip ci]"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
