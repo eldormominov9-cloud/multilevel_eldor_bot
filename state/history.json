@@ -6,5 +6,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-16T20:12:45+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Vaqt iboralari bilan IN, ON, AT predloglarini to'g'ri qo'llash",
+    "target_expression": "Prepositions of time: IN, ON, AT",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-17T10:25:49+05:00"
   }
 ]
