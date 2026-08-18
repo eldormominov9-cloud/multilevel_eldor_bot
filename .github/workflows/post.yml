@@ -2,12 +2,14 @@ name: Avtomatik post
 
 on:
   schedule:
-    # Toshkent vaqti = UTC+5.
-    # Post 30 daqiqa oldin tayyorlanadi va tasdiqqa yuboriladi:
-    #   08:30 Toshkent = 03:30 UTC  -> javob bo'lmasa 09:00 da chiqadi
-    #   18:30 Toshkent = 13:30 UTC  -> javob bo'lmasa 19:00 da chiqadi
-    - cron: "30 3 * * *"
-    - cron: "30 13 * * *"
+    # Toshkent vaqti = UTC+5. Post cron'dan ~35 daqiqa keyin chiqadi
+    # (4 daqiqa tayyorlash + 30 daqiqa tasdiq kutish).
+    #   08:26 Toshkent = 03:26 UTC  -> post ~09:00
+    #   13:26 Toshkent = 08:26 UTC  -> post ~14:00
+    #   19:26 Toshkent = 14:26 UTC  -> post ~20:00
+    - cron: "26 3 * * *"
+    - cron: "26 8 * * *"
+    - cron: "26 14 * * *"
 
   workflow_dispatch:
     inputs:
