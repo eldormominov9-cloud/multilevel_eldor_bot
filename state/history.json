@@ -22,5 +22,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-17T20:03:38+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: On the contrary va On the other hand farqi",
+    "target_expression": "On the contrary vs. On the other hand",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-18T20:11:08+05:00"
   }
 ]
