@@ -68,7 +68,7 @@ def parse_json(raw: str) -> dict:
         except json.JSONDecodeError:
             pass
 
-    raise ValueError(f"JSON ajratib bo'lmadi. Model javobi:\n{raw[:600]}")
+        raise ValueError(f"JSON ajratib bo'lmadi. Model javobi:\n{raw[:600]}")
 
 
 def _generate_once(prompt: str, *, use_search: bool, json_output: bool,
