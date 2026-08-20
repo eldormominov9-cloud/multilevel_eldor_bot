@@ -46,5 +46,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-20T10:09:48+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Shart gaplarda 'if'dan keyin 'will' ishlatmaslik qoidasi",
+    "target_expression": "First Conditional (If + Present Simple, will + Verb)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-20T15:07:26+05:00"
   }
 ]
