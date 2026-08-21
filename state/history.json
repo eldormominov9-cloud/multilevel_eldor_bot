@@ -62,5 +62,13 @@
     "qa_score": 8,
     "had_image": true,
     "published_at": "2026-08-20T21:34:06+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Borrow va Lend fe'llari orasidagi farq",
+    "target_expression": "Borrow vs Lend",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-21T10:17:05+05:00"
   }
 ]
