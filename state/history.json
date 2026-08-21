@@ -78,5 +78,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-21T15:18:41+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Suggest fe'lini to'g'ri ishlatish qoidalari",
+    "target_expression": "Suggest + V-ing / Suggest that...",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-21T21:13:22+05:00"
   }
 ]
