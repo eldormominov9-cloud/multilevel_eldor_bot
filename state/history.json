@@ -70,5 +70,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-21T10:17:05+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "\"Used to\" va \"Be used to\" o'rtasidagi farq",
+    "target_expression": "used to + verb vs. be used to + -ing",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-21T15:18:41+05:00"
   }
 ]
