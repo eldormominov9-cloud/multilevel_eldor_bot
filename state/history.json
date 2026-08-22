@@ -86,5 +86,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-21T21:13:22+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "Discuss fe'lidan keyin 'about' ishlatmaslik qoidasi",
+    "target_expression": "Discuss + direct object (without 'about')",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-22T10:03:45+05:00"
   }
 ]
