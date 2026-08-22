@@ -102,5 +102,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-22T14:55:19+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Active Recall (Faol eslash) bilan so'z boyligini oshirish",
+    "target_expression": "Active Recall (Retrieval Practice)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-22T20:02:42+05:00"
   }
 ]
