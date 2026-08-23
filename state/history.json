@@ -126,5 +126,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-23T14:55:05+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "\"Explain me\" emas, \"Explain to me\" deb ishlatish",
+    "target_expression": "Explain something to someone",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-23T20:08:37+05:00"
   }
 ]
