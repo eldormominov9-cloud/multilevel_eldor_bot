@@ -110,5 +110,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-22T20:02:42+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "\"Arrive\" fe'li bilan \"to\" emas, \"in\" va \"at\" ishlatish",
+    "target_expression": "Arrive in / Arrive at",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-23T10:06:05+05:00"
   }
 ]
