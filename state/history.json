@@ -118,5 +118,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-23T10:06:05+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS'da \"Lack\" fe'lini \"of\" bilan ishlatmaslik qoidasi",
+    "target_expression": "Lack (fe'l) va Lack of (ot)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-23T14:55:05+05:00"
   }
 ]
