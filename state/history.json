@@ -158,5 +158,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-25T10:13:55+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Marry va Get married to iboralarini to'g'ri ishlatish",
+    "target_expression": "Marry someone / Get married to someone",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-25T15:21:21+05:00"
   }
 ]
