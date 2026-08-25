@@ -150,5 +150,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-24T15:32:22+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: Although va But'ni birga ishlatmaslik",
+    "target_expression": "Although... (without 'but')",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-25T10:13:55+05:00"
   }
 ]
