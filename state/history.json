@@ -182,5 +182,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-26T15:51:15+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing'da 'Despite'dan keyin 'of' ishlatmaslik",
+    "target_expression": "Despite (vs In spite of)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-26T23:29:42+05:00"
   }
 ]
