@@ -174,5 +174,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-26T10:11:03+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Present Perfect'da FOR va SINCE predloglarini to'g'ri qo'llash",
+    "target_expression": "Present Perfect + for / since",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-26T15:51:15+05:00"
   }
 ]
