@@ -230,5 +230,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-30T09:02:29+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Leitner qutisi usuli bilan yangi so'zlarni yodda saqlash",
+    "target_expression": "Leitner System (Leitner qutisi usuli)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-30T13:35:47+05:00"
   }
 ]
