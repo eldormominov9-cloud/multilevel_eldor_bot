@@ -222,5 +222,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-29T13:46:11+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "\"Depend ON\" iborasini to'g'ri qo'llash",
+    "target_expression": "Depend on (phrasal verb)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-30T09:02:29+05:00"
   }
 ]
