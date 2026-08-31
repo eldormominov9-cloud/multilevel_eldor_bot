@@ -246,5 +246,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-08-30T19:36:51+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS'da 'In my point of view' deb xato ishlatmaslik",
+    "target_expression": "In my opinion vs. From my point of view",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-08-31T08:41:02+05:00"
   }
 ]
