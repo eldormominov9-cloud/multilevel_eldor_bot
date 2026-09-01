@@ -286,5 +286,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-01T13:48:21+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Kundalik ingliz tilida 'Call it a day' idiomasi",
+    "target_expression": "Call it a day",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-01T20:06:43+05:00"
   }
 ]
