@@ -302,5 +302,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-02T08:33:10+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "'I am agree' emas, 'I agree' deb to'g'ri aytish",
+    "target_expression": "Agree fe'lining to'g'ri qo'llanishi (I agree)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-02T14:07:03+05:00"
   }
 ]
