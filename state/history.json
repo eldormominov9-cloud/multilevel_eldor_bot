@@ -294,5 +294,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-01T20:06:43+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Extensive Reading: Lug'atsiz kitob o'qish metodi",
+    "target_expression": "Extensive Reading (Keng qamrovli o'qish)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-02T08:33:10+05:00"
   }
 ]
