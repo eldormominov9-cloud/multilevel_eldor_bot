@@ -318,5 +318,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-02T19:36:41+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Kundalik nutqda 'Once in a blue moon' iborasini qo'llash",
+    "target_expression": "Once in a blue moon",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-03T10:52:33+05:00"
   }
 ]
