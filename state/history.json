@@ -326,5 +326,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-03T10:52:33+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "\"Wait me\" emas, \"Wait for me\" deb to'g'ri ishlatish",
+    "target_expression": "Wait for (someone / something)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-03T19:40:23+05:00"
   }
 ]
