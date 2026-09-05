@@ -374,5 +374,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-05T13:53:16+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Reading: False va Not Given farqini aniqlash",
+    "target_expression": "False vs Not Given (IELTS Reading)",
+    "qa_score": 9,
+    "had_image": true,
+    "published_at": "2026-09-05T19:36:07+05:00"
   }
 ]
