@@ -366,5 +366,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-05T08:34:55+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "During va While farqi: Qachon qaysi biri ishlatiladi?",
+    "target_expression": "During vs While",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-05T13:53:16+05:00"
   }
 ]
