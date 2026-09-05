@@ -358,5 +358,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-04T19:36:02+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Spaced Repetition: So'zlarni unutilmas qilish metodi",
+    "target_expression": "Spaced Repetition (Oraliq takrorlash tizimi)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-05T08:34:55+05:00"
   }
 ]
