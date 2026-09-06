@@ -390,5 +390,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-06T09:02:39+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "\"So\" va \"Such\" so'zlarining farqi va ishlatilishi",
+    "target_expression": "So vs Such (Intensifiers)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-06T13:36:47+05:00"
   }
 ]
