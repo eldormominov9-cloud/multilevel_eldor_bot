@@ -406,5 +406,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-06T19:37:04+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Task 1: 'Respectively' so'zini to'g'ri ishlatish",
+    "target_expression": "Respectively (mos ravishda)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-07T08:57:43+05:00"
   }
 ]
