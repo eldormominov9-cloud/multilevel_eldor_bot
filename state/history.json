@@ -422,5 +422,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-07T13:46:06+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Comprehensible Input: Til o'rganishda 'i+1' qoidasi",
+    "target_expression": "Comprehensible Input (Tushunarli axborot)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-07T19:37:54+05:00"
   }
 ]
