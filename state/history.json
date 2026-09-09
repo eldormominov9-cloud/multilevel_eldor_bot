@@ -462,5 +462,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-09T08:34:52+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Bir fikrda bo'lish: 'See eye to eye' idiomasi",
+    "target_expression": "See eye to eye (with someone)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-09T18:05:46+05:00"
   }
 ]
