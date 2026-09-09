@@ -454,5 +454,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-08T19:39:09+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Vaqt predloglari: 'By' va 'Until' orasidagi farq",
+    "target_expression": "By vs Until",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-09T08:34:52+05:00"
   }
 ]
