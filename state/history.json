@@ -486,5 +486,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-10T18:07:37+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Habit Stacking: Kunlik ingliz tili odatini qurish",
+    "target_expression": "Habit Stacking (After [CURRENT HABIT], I will [NEW HABIT])",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-10T22:50:32+05:00"
   }
 ]
