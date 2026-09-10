@@ -470,5 +470,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-09T18:05:46+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing va Speaking: 'Rise' va 'Raise' farqi",
+    "target_expression": "Rise vs. Raise",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-10T13:16:06+05:00"
   }
 ]
