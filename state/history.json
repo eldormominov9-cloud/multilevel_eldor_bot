@@ -502,5 +502,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-11T13:27:12+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: 'Affect' fe'lidan keyin 'on' ishlatmaslik",
+    "target_expression": "Affect + direct object (without 'on')",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-11T18:01:24+05:00"
   }
 ]
