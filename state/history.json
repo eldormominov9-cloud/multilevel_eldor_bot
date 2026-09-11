@@ -494,5 +494,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-10T22:50:32+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "'In the end' va 'At the end' iboralari farqi",
+    "target_expression": "In the end vs. At the end",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-11T13:27:12+05:00"
   }
 ]
