@@ -510,5 +510,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-11T18:01:24+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Kundalik nutqda 'Beat around the bush' iborasini qo'llash",
+    "target_expression": "Beat around the bush",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-11T22:54:02+05:00"
   }
 ]
