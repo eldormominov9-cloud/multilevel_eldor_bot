@@ -534,5 +534,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-12T17:30:51+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "Contact fe'lidan keyin 'WITH' predlogini ishlatmaslik",
+    "target_expression": "contact someone (not 'contact with someone')",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-12T22:27:07+05:00"
   }
 ]
