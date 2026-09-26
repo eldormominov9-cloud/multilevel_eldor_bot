@@ -566,5 +566,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-16T18:48:45+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS'da 'According to me' deb fikr bildirmaslik",
+    "target_expression": "According to vs In my opinion",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-09-26T18:18:08+05:00"
   }
 ]
