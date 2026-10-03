@@ -582,5 +582,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-09-27T23:34:20+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Look forward to iborasidan keyin -ING qo'shish qoidasi",
+    "target_expression": "Look forward to + V-ing / noun",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-03T18:46:01+05:00"
   }
 ]
