@@ -598,5 +598,13 @@
     "qa_score": 7,
     "had_image": true,
     "published_at": "2026-10-04T23:45:59+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: 'Economic' va 'Economical' so'zlari farqi",
+    "target_expression": "Economic vs Economical",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-08T01:34:03+05:00"
   }
 ]
