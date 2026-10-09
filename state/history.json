@@ -614,5 +614,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-10-09T16:04:08+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Active Recall metodi: So'zlarni oson va uzoqqa eslab qolish",
+    "target_expression": "Active Recall (Retrieval Practice)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-10T01:08:17+05:00"
   }
 ]
