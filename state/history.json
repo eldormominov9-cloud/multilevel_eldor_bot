@@ -622,5 +622,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-10-10T01:08:17+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "'Used to do' va 'Be used to doing' orasidagi farq",
+    "target_expression": "used to do vs be used to doing",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-10T15:33:04+05:00"
   }
 ]
