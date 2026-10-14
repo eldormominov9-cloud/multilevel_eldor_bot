@@ -662,5 +662,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-10-13T03:47:02+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: 'Result in' va 'Result from' farqi",
+    "target_expression": "Result in vs Result from",
+    "qa_score": 7,
+    "had_image": true,
+    "published_at": "2026-10-14T14:23:13+05:00"
   }
 ]
