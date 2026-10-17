@@ -678,5 +678,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-10-15T14:04:29+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Chunking metodi: So'zlarni ibora holida o'rganish",
+    "target_expression": "Chunking method (Leksik bloklar usuli)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-17T13:25:38+05:00"
   }
 ]
