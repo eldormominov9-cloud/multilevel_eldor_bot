@@ -686,5 +686,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-10-17T13:25:38+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Discuss fe'lidan keyin 'ABOUT' ishlatmaslik",
+    "target_expression": "discuss something (not 'discuss about')",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-18T22:28:09+05:00"
   }
 ]
