@@ -726,5 +726,13 @@
     "qa_score": 7,
     "had_image": true,
     "published_at": "2026-10-27T14:23:23+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: 'Although' va 'But'ni birga ishlatmaslik",
+    "target_expression": "Although (Subordinating conjunction)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-30T15:20:15+05:00"
   }
 ]
