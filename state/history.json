@@ -734,5 +734,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-10-30T15:20:15+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Bir o'q bilan ikki quyon: 'Kill two birds with one stone'",
+    "target_expression": "Kill two birds with one stone",
+    "qa_score": 9,
+    "had_image": true,
+    "published_at": "2026-10-31T15:23:42+05:00"
   }
 ]
