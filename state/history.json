@@ -742,5 +742,13 @@
     "qa_score": 9,
     "had_image": true,
     "published_at": "2026-10-31T15:23:42+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Sheriksiz speaking: Self-talk metodi",
+    "target_expression": "Self-talk method (Talking to yourself in English)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-10-31T23:45:33+05:00"
   }
 ]
