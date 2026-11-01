@@ -750,5 +750,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-10-31T23:45:33+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Marry bilan 'WITH' predlogini ishlatmaslik qoidasi",
+    "target_expression": "Marry somebody / Be married to somebody",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-01T20:57:42+05:00"
   }
 ]
