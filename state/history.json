@@ -774,5 +774,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-07T16:02:43+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Transportda 'In' va 'On' predloglarini to'g'ri ishlatish",
+    "target_expression": "In a car vs On a bus",
+    "qa_score": 9,
+    "had_image": true,
+    "published_at": "2026-11-07T20:05:11+05:00"
   }
 ]
