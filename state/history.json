@@ -790,5 +790,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-08T15:43:59+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: 'Number of' va 'Amount of' farqi",
+    "target_expression": "The number of vs The amount of",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-08T20:37:34+05:00"
   }
 ]
