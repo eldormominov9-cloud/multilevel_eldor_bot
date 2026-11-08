@@ -782,5 +782,13 @@
     "qa_score": 9,
     "had_image": true,
     "published_at": "2026-11-07T20:05:11+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Ishni yakunlash: 'Call it a day' iborasini qo'llash",
+    "target_expression": "Call it a day",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-08T15:43:59+05:00"
   }
 ]
