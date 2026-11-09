@@ -806,5 +806,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-09T00:06:15+05:00"
+  },
+  {
+    "category": "method",
+    "topic": "Keyword Method: So'zlarni assotsiatsiya bilan yodlash",
+    "target_expression": "The Keyword Method",
+    "qa_score": 9,
+    "had_image": true,
+    "published_at": "2026-11-09T17:17:24+05:00"
   }
 ]
