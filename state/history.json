@@ -814,5 +814,13 @@
     "qa_score": 9,
     "had_image": true,
     "published_at": "2026-11-09T17:17:24+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Present Perfect bilan o'tgan vaqtni ishlatmaslik",
+    "target_expression": "Present Perfect with finished past time markers",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-10T05:09:29+05:00"
   }
 ]
