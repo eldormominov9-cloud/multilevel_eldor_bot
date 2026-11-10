@@ -822,5 +822,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-10T05:09:29+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: 'Percent' va 'Percentage' farqi",
+    "target_expression": "Percent vs Percentage",
+    "qa_score": 9,
+    "had_image": true,
+    "published_at": "2026-11-11T02:43:46+05:00"
   }
 ]
