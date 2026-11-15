@@ -838,5 +838,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-15T16:59:38+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Arrive bilan predloglar: 'In' va 'At' ishlatilishi",
+    "target_expression": "Arrive in / Arrive at (not 'arrive to')",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-16T01:30:53+05:00"
   }
 ]
