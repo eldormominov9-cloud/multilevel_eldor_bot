@@ -830,5 +830,13 @@
     "qa_score": 9,
     "had_image": true,
     "published_at": "2026-11-11T02:43:46+05:00"
+  },
+  {
+    "category": "vocabulary",
+    "topic": "Juda kamdan-kam: 'Once in a blue moon' idiomasi",
+    "target_expression": "Once in a blue moon",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-15T16:59:38+05:00"
   }
 ]
