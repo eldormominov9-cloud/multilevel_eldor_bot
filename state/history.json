@@ -854,5 +854,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-18T17:05:01+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Task 1: 'Account for' birikmasini to'g'ri qo'llash",
+    "target_expression": "Account for (something)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-20T03:52:59+05:00"
   }
 ]
