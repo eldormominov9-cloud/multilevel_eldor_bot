@@ -878,5 +878,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-24T06:47:54+05:00"
+  },
+  {
+    "category": "grammar",
+    "topic": "Listen fe'lidan keyin 'TO' predlogini unutmaslik",
+    "target_expression": "Listen to (someone / something)",
+    "qa_score": 10,
+    "had_image": true,
+    "published_at": "2026-11-26T04:46:20+05:00"
   }
 ]
