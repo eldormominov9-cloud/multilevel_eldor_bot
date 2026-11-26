@@ -886,5 +886,13 @@
     "qa_score": 10,
     "had_image": true,
     "published_at": "2026-11-26T04:46:20+05:00"
+  },
+  {
+    "category": "exam",
+    "topic": "IELTS Writing: 'Lead to'dan keyin -ING ishlatish qoidasi",
+    "target_expression": "Lead to (+ noun / gerund)",
+    "qa_score": 9,
+    "had_image": true,
+    "published_at": "2026-11-27T04:50:46+05:00"
   }
 ]
